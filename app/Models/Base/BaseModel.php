@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Eloquent\Model;
 
-class BaseModel extends Model {
+abstract class BaseModel extends Model {
 
     public $timestamps = false;
 
